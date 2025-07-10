@@ -142,7 +142,38 @@ nav ul li button{
    max-width: 1140px;
     margin: 116px auto; 
 }
-
+.user-area-top h2{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+}
 .user-area-bottom{
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+    
+}
+.user-section-1{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 24px 72px 24px 24px;
+}
+.user-area-bottom .star-icon{
+    padding-bottom: 24px;
+}
+
+.user-title h3{
+    padding-bottom: 8px;
+}
+.user-subtitle h4{
+    padding-bottom: 24px;
+}
+
+.user-img{
+    display: flex;
+}
+
+.user-title h3{
+    font-size: ;
 }

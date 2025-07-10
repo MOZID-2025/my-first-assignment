@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared style */
+.primary-button{
+    background-color: #4E47FF;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 12px;
+    color: #fff;
+}
+.inter-common {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.raleway-common{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+/* header area start */
+.top-header{
+    max-width: 1140px;
+    margin: 0 auto;  
+}
+header{
+   
+    background-image: url(Assets/Hero-bg.png);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+nav h3{
+    font-size: 34px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+nav ul li{
+    list-style: none;
+    
+}
+nav ul li button{
+    background-color: #4E47FF;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.banner-content{
+    text-align: center;
+}
+
+.banner-content h2{
+    font-size: 65px;
+    font-weight: bold;
+    padding-top: 158px;
+    padding-bottom: 37px;
+}
+.banner-content button{
+    margin-bottom: 152px;
+}
+
+/* action area start */
+.action-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 116px;
+}
+.action-area-left{
+    padding-top: 63px;
+}
+.action-area-left h2{
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 23px;
+}
+.action-area-left p{
+    font-size: 24px;
+    padding-bottom: 23px;
+    color: rgba(37, 36, 50, 0.5)
+}
+
+.action-area-right img{
+    border-radius: 48px;
+}
+
+/* productive area start */
+.productive-area{
+    max-width: 1140px;
+    margin: 116px auto;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 50px;
+    padding: 50px 142px;
+    
+}
+.productive-area-top{
+    text-align: center;
+}
+.productive-area-top h2{
+    font-size: 38px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    padding-bottom: 40px;
+}
+.productive-area-bottom{
+    display: flex;
+    gap: 158px;
+    justify-content: center;
+    text-align: center;
+}
+.productive-area-bottom h2{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF
+}
+.productive-area-bottom p{
+    font-size: 20px;
+    
+    color: rgba(34, 33, 33, 0.5)
+}
+
+
+/* user area start */
+
+.user-area{
+   max-width: 1140px;
+    margin: 116px auto; 
+}
+
+.user-area-bottom{
+    display: flex;
+}

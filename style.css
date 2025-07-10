@@ -11,6 +11,10 @@
     border-radius: 12px;
     color: #fff;
 }
+
+.bg-color{
+    background-color: #F5F8FF;
+}
 .inter-common {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -176,4 +180,117 @@ nav ul li button{
 
 .user-title h3{
     font-size: ;
+}
+
+
+.focus-area{
+   max-width: 1140px;
+    margin: 116px auto; 
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.focus-area-top h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+   padding-top: 71px;
+}
+
+.focus-area-top p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.focus-area-bottom img{
+    margin: 20px 0 71px 0;
+    border-radius: 48px;
+}
+
+.touch-area{
+  max-width: 1140px;
+    margin: 116px auto;  
+    display: flex; 
+    
+}
+.touch-area-left {
+    width: 830px;
+}
+.touch-area-left h2{
+    font-size: 97px;
+    font-weight: bold;
+    margin-top: 150px;
+    
+}
+
+.touch-area-right label{
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+.touch-area-right [type="text"], .touch-area-right [type="email"]{
+  height: 64px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  width: 100%;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: block;
+}
+
+textarea{
+  height: 180px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  width: 100%;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: block;
+}
+
+.touch-area-right button{
+    width: 112%;
+}
+
+.footer-area{
+     max-width: 1140px;
+    margin: 90px auto; 
+    text-align: center; 
+}
+
+.footer-area h2{
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgba(78, 71, 255, 1);
+}
+.footer-area p{
+    font-size: 20px;
+    color: #8987A1;
+    margin-top: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  
+}
+nav ul li{
+    list-style: none;
+    margin: 0 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #8987A1;
 }

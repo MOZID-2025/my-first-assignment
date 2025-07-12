@@ -10,6 +10,7 @@
     padding: 12px 36px;
     border-radius: 12px;
     color: #fff;
+    font-size: 16px;
 }
 
 .bg-color{
@@ -29,54 +30,50 @@
   font-style: normal;
 }
 
-
 /* header area start */
 .top-header{
     max-width: 1140px;
     margin: 0 auto;  
 }
 header{
-   
+
     background-image: url(Assets/Hero-bg.png);
 }
-
-nav{
+.logo{
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+.header-content{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header-content-top{
     padding: 50px 0;
 }
-
-nav h3{
-    font-size: 34px;
-    font-weight: bold;
-    color: #4E47FF;
+.header-content-bottom{
+    padding-bottom: 152px;
 }
-
-nav ul li{
-    list-style: none;
-    
-}
-nav ul li button{
+.header-content-button{
     background-color: #4E47FF;
     border: none;
     padding: 12px 36px;
     border-radius: 12px;
     color: #fff;
 }
-
-.banner-content{
+.header-content-bottom{
     text-align: center;
 }
-
-.banner-content h2{
-    font-size: 65px;
-    font-weight: bold;
+.header-content-bottom h2{
     padding-top: 158px;
+    text-align: center;
     padding-bottom: 37px;
 }
-.banner-content button{
-    margin-bottom: 152px;
+.header-content h2{
+    font-size: 65px;
+    font-weight: bold;  
 }
+
 
 /* action area start */
 .action-section{
@@ -84,7 +81,7 @@ nav ul li button{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding-top: 116px;
+    padding: 116px 0;
 }
 .action-area-left{
     padding-top: 63px;
@@ -99,7 +96,6 @@ nav ul li button{
     padding-bottom: 23px;
     color: rgba(37, 36, 50, 0.5)
 }
-
 .action-area-right img{
     border-radius: 48px;
 }
@@ -107,11 +103,10 @@ nav ul li button{
 /* productive area start */
 .productive-area{
     max-width: 1140px;
-    margin: 116px auto;
+    margin: 0 auto;
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 50px;
-    padding: 50px 142px;
-    
+    padding: 50px 142px; 
 }
 .productive-area-top{
     text-align: center;
@@ -135,7 +130,6 @@ nav ul li button{
 }
 .productive-area-bottom p{
     font-size: 20px;
-    
     color: rgba(34, 33, 33, 0.5)
 }
 
@@ -143,8 +137,9 @@ nav ul li button{
 /* user area start */
 
 .user-area{
-   max-width: 1140px;
-    margin: 116px auto; 
+    max-width: 1140px;
+    margin: 0px auto; 
+    padding: 137px 0;
 }
 .user-area-top h2{
     font-size: 42px;
@@ -155,18 +150,15 @@ nav ul li button{
 .user-area-bottom{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    
-    
+    gap: 20px;   
 }
 .user-section-1{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    padding: 24px 72px 24px 24px;
+    padding: 24px 44px 24px 24px;
 }
 .user-area-bottom .star-icon{
     padding-bottom: 24px;
 }
-
 .user-title h3{
     padding-bottom: 8px;
 }
@@ -177,17 +169,30 @@ nav ul li button{
 .user-img{
     display: flex;
 }
-
+.user-img img{
+    border-radius: 50%;
+}
 .user-title h3{
-    font-size: ;
+    font-size: 20px;
+}
+.user-name{
+    padding-left: 12px;
+}
+.user-name h4{
+color: rgba(117, 117, 117, 1)
+}
+.user-name p{
+    color: rgba(179, 179, 179, 1);
 }
 
-
+/* focus area start */
 .focus-area{
    max-width: 1140px;
-    margin: 116px auto; 
+    margin: 0px auto; 
     text-align: center;
+    background-color: #fff;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
 }
 
 .focus-area-top h2{
@@ -195,6 +200,7 @@ nav ul li button{
     font-weight: bold;
     margin-bottom: 20px;
    padding-top: 71px;
+   
 }
 
 .focus-area-top p{
@@ -207,35 +213,40 @@ nav ul li button{
     border-radius: 48px;
 }
 
+
+/* touch area start */
 .touch-area{
   max-width: 1140px;
-    margin: 116px auto;  
+    margin: 0px auto;  
     display: flex; 
+    padding: 93px 0;
     
 }
 .touch-area-left {
-    width: 830px;
+    width: 528px;
 }
 .touch-area-left h2{
     font-size: 97px;
     font-weight: bold;
-    margin-top: 150px;
-    
+    margin-top: 150px;  
 }
-
+.touch-area-right {
+    padding-left: 115px;
+}
 .touch-area-right label{
     font-size: 18px;
     font-weight: 600;
     display: block;
+    padding-bottom: 10px;
 }
 .touch-area-right [type="text"], .touch-area-right [type="email"]{
   height: 64px;
   border-radius: 5px;
   background-color: #fff;
   font-size: 16px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   margin-bottom: 24px;
-  width: 100%;
+  width: 157%;
   border: none;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   display: block;
@@ -246,38 +257,43 @@ textarea{
   border-radius: 5px;
   background-color: #fff;
   font-size: 16px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   margin-bottom: 24px;
-  width: 100%;
+  width: 157%;
   border: none;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   display: block;
 }
 
 .touch-area-right button{
-    width: 112%;
+    width: 163%;
+    font-size: 16px;
 }
 
+/* footer area start */
 .footer-area{
      max-width: 1140px;
-    margin: 90px auto; 
+    margin: 0px auto; 
     text-align: center; 
+    padding-top: 104px;
 }
 
 .footer-area h2{
     font-size: 100px;
     font-weight: bolder;
     color: rgba(78, 71, 255, 1);
+    padding-bottom: 8px;
 }
 .footer-area p{
     font-size: 20px;
-    color: #8987A1;
-    margin-top: 20px;
+    color: rgba(137, 135, 161, 1);
+    padding-bottom: 20px;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 103px;
     
 }
 nav ul{
@@ -288,6 +304,7 @@ nav ul{
 nav ul li{
     list-style: none;
     margin: 0 40px;
+    font-size: 20px;
 }
 
 nav ul li a{

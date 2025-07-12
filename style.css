@@ -1,3 +1,5 @@
+/* universal css */
+
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +24,6 @@
   font-weight: 600;
   font-style: normal;
 }
-
 .raleway-common{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -30,13 +31,14 @@
   font-style: normal;
 }
 
+
+
 /* header area start */
 .top-header{
     max-width: 1140px;
     margin: 0 auto;  
 }
 header{
-
     background-image: url(Assets/Hero-bg.png);
 }
 .logo{
@@ -73,6 +75,7 @@ header{
     font-size: 65px;
     font-weight: bold;  
 }
+/* header area end */
 
 
 /* action area start */
@@ -100,13 +103,16 @@ header{
     border-radius: 48px;
 }
 
+/* action area  end */
+
+
 /* productive area start */
 .productive-area{
     max-width: 1140px;
     margin: 0 auto;
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 50px;
-    padding: 50px 142px; 
+    padding: 50px 0; 
 }
 .productive-area-top{
     text-align: center;
@@ -132,6 +138,8 @@ header{
     font-size: 20px;
     color: rgba(34, 33, 33, 0.5)
 }
+
+/* productive area end */
 
 
 /* user area start */
@@ -165,7 +173,6 @@ header{
 .user-subtitle h4{
     padding-bottom: 24px;
 }
-
 .user-img{
     display: flex;
 }
@@ -179,28 +186,28 @@ header{
     padding-left: 12px;
 }
 .user-name h4{
-color: rgba(117, 117, 117, 1)
+    color: rgba(117, 117, 117, 1)
 }
 .user-name p{
     color: rgba(179, 179, 179, 1);
 }
+/* user area end */
+
 
 /* focus area start */
 .focus-area{
-   max-width: 1140px;
+    max-width: 1140px;
     margin: 0px auto; 
     text-align: center;
     background-color: #fff;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; 
 }
 
 .focus-area-top h2{
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
-   padding-top: 71px;
-   
+    padding-top: 71px;
 }
 
 .focus-area-top p{
@@ -212,11 +219,12 @@ color: rgba(117, 117, 117, 1)
     margin: 20px 0 71px 0;
     border-radius: 48px;
 }
+/* focus area end */
 
 
 /* touch area start */
 .touch-area{
-  max-width: 1140px;
+    max-width: 1140px;
     margin: 0px auto;  
     display: flex; 
     padding: 93px 0;
@@ -269,6 +277,8 @@ textarea{
     width: 163%;
     font-size: 16px;
 }
+/* touch area end */
+
 
 /* footer area start */
 .footer-area{
@@ -277,7 +287,6 @@ textarea{
     text-align: center; 
     padding-top: 104px;
 }
-
 .footer-area h2{
     font-size: 100px;
     font-weight: bolder;
@@ -293,8 +302,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 103px;
-    
+    padding-bottom: 103px;  
 }
 nav ul{
   display: flex;
@@ -311,3 +319,4 @@ nav ul li a{
     text-decoration: none;
     color: #8987A1;
 }
+/* footer area end */
